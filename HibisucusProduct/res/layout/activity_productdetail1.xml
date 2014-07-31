@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="test.example.hibisucusproduct.Productdetail1" >
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:maxHeight="179dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/image1" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivPosterImage"
+        android:layout_marginTop="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/product1detail"
+        android:layout_width="288dp"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/scrollView1"
+        android:layout_below="@+id/image1"
+        android:layout_weight="25.07"
+        android:text="asjhaskjhkja
+        dssdfsdf
+        dffdsfsdf
+        sdfsdfsdf
+        sfsdfsdf
+        sdfsd
+        fsd
+        fs
+        df
+        sdf
+        sd
+        fs
+        df
+        sdf
+        sdf
+        sdf
+        sfd
+        adsadjhg
+        jhhasdkjasd
+        jhhgsdjhakjas
+        jhagsdkjask
+        " />
+
+    <Button
+        android:id="@+id/reg_prod_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/product1detail"
+        android:text="reg" />
+
+</RelativeLayout>

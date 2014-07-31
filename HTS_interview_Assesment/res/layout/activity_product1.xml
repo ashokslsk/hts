@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ashok.android.hts_interview_assesment.Product1" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/image1" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageView1" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView1"
+            android:layout_below="@+id/imageView1"
+            android:layout_marginTop="80dp"
+            android:text="Google+ (pronounced and sometimes written as Google Plus /ˈɡuːɡəl plʌs/) is a social networking and identity service that is owned and operated by Google Inc. Google has described Google+ as a social layer that enhances many of its online properties, and that it is not simply a social networking website, but also an authorship tool that associates web-content directly with its owner author. It is the second-largest social networking site in the world after Facebook. 540 million monthly active users are part of the Identity service site, by interacting socially with Google+&apos;s enhanced properties, like Gmail, +1 button, and YouTube comments. In October 2013, Google counted 540 million active users who used at least one Google+ service, of which 300 million users are active in the stream."
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buy_product1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/scrollView1"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginRight="34dp"
+        android:layout_marginTop="36dp"
+        android:text="BUY" />
+
+</RelativeLayout>

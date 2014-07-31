@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    		<TextView
+        		android:id="@+id/Nameof_reg"
+       	 		android:layout_width="wrap_content"
+       		    android:layout_height="wrap_content"
+        		android:layout_margin="10dp"
+        		 android:textColor="#151B8D"
+       			android:text="Name :"
+            />
+    
+    	<TextView
+        		android:id="@+id/Number1"
+       	 		android:layout_width="wrap_content"
+       		    android:layout_height="wrap_content"
+        		android:layout_margin="10dp"
+        		 android:textColor="#151B8D"
+       			android:text="First contact not available"
+            />
+        	<TextView
+        		android:id="@+id/Number2"
+       	 		android:layout_width="wrap_content"
+       		    android:layout_height="wrap_content"
+        		android:layout_margin="10dp"
+        		 android:textColor="#151B8D"
+       			android:text="Second contact not available"
+      		    />
+    
+
+</LinearLayout>

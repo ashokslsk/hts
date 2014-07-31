@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ashok.android.hts_interview_assesment"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!--
+         The following two permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+     <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name=".CustomGrid"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:label="@string/title_activity_sign_up"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" 
+            android:noHistory="true">
+        </activity>
+        <activity
+            android:name=".Product1"
+            android:label="@string/title_activity_product1"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name=".Product2"
+            android:label="@string/title_activity_product2"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name=".Product3"
+            android:label="@string/title_activity_product3"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name=".Registration"
+            android:label="@string/title_activity_registration"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".Registered_data"
+            android:label="@string/title_activity_registered_data" 
+            android:noHistory="true">
+        </activity>
+        <activity
+            android:name=".Camera"
+            android:label="@string/title_activity_camera" 
+            android:noHistory="true">
+        </activity>
+    </application>
+
+</manifest>
